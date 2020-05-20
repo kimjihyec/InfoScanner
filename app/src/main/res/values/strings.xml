@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InfoScanner</string>
+    <string name="search_result">검색결과</string>
+    <string name="locker">보관함</string>
+    <string name="category">분류폴더</string>
+    <string name="trash">휴지통</string>
+    <string name="exception">예외처리</string>
+    <string name="result">결과보고서</string>
+</resources>

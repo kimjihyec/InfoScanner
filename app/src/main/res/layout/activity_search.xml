@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://webnautes.tistory.com/472-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--    tools:context="noidea"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/searchFolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:text="분석그래프"
+            android:visibility="visible"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview_main_jsontext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:maxLines="100"
+            android:padding="15dp"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
