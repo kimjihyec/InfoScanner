@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,40 +6,37 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_weight="0.1"
-        android:gravity="center_vertical">
-        <TextView
-            android:id="@+id/locker"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="35dp"
-            android:text="@string/locker"
-            android:visibility="visible"
-            android:divider="#000000"
-            android:dividerHeight="1dp"
-            android:gravity="center_horizontal" />
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:gravity="center_vertical">-->
+<!--        <TextView-->
+<!--            android:id="@+id/locker"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="35dp"-->
+<!--            android:text="@string/locker"-->
+<!--            android:visibility="visible"-->
+<!--            android:divider="#000000"-->
+<!--            android:dividerHeight="1dp"-->
+<!--            android:gravity="center_horizontal" />-->
+            <android.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                android:text="보관함"/>
 
-        <!--        <android.widget.Toolbar-->
-        <!--            android:id="@+id/toolbar"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:background="?attr/colorPrimary"-->
-        <!--            android:minHeight="?attr/actionBarSize"-->
-        <!--            android:theme="?attr/actionBarTheme"-->
-        <!--            android:text="보관함"/>-->
-
-    </LinearLayout>
+<!--    </LinearLayout>-->
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_weight="0.1"
+        android:layout_height="?attr/actionBarSize"
         android:orientation="vertical"
         android:gravity="center_vertical">
         <TextView
@@ -55,12 +51,17 @@
             android:divider="#000000"
             android:dividerHeight="1dp"
             android:layout_gravity="center_horizontal" />
-
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_weight="0.1"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
         android:orientation="vertical"
         android:gravity="center_vertical">
         <TextView
@@ -74,12 +75,17 @@
             android:visibility="visible"
             android:divider="#000000"
             android:dividerHeight="1dp" />
-
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_weight="0.1"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
         android:orientation="vertical"
         android:gravity="center_vertical">
         <TextView
@@ -93,12 +99,17 @@
             android:visibility="visible"
             android:divider="#000000"
             android:dividerHeight="1dp"/>
-
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_weight="0.1"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
         android:orientation="vertical"
         android:gravity="center_vertical">
         <TextView
@@ -112,41 +123,35 @@
             android:visibility="visible"
             android:divider="#000000"
             android:dividerHeight="1dp"/>
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_weight="0.1"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
         android:orientation="vertical"
         android:gravity="center_vertical">
         <TextView
             android:id="@+id/result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="1dp"
             android:textColor="#000000"
-            android:textSize="35dp"
+            android:textSize="?android:textScaleX"
             android:text="@string/result"
             android:visibility="visible"/>
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_weight="0.4"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/searchFolder"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:textColor="#000000"
-            android:textSize="35dp"
-            android:visibility="invisible"
-            android:divider="#000000"
-            android:dividerHeight="1dp"/>
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="#000"/>
 
-    </LinearLayout>
+
+</LinearLayout>
 
 </LinearLayout>
